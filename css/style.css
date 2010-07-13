@@ -1,8 +1,14 @@
 body {
-	background-image:url(../images/bg.png);
-	background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:bottom right;
   font-size:100%;
 }
+
+h1, h2, h3 {
+  margin-bottom:0;
+  font-weight:bold;
+}
+
+h2 {
+  font-variant:small-caps;
+}
+
 
