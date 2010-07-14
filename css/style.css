@@ -7,12 +7,23 @@ h1, h2, h3 {
   font-weight:bold;
 }
 
+h1 {
+}
+
+  h1 span {
+    text-transform:lowercase;
+  }
+
 h2 {
   font-variant:small-caps;
 }
 
 ul {
   list-style-type:none;
+}
+
+p {
+  line-height:20px;
 }
 
 
