@@ -1,5 +1,6 @@
 body {
   font-size:100%;
+  font-family:Arial;
 }
 
 h1, h2, h3 {
@@ -8,11 +9,21 @@ h1, h2, h3 {
 }
 
 h1 {
+  letter-spacing:-4px;
 }
+
+  h1 a {
+    text-decoration:none;
+  }
+  
+    h1 a:hover {
+      border-bottom:dashed 1px #000;
+    }
 
   h1 .small {
     text-transform:lowercase;
     line-height:0;
+    letter-spacing:0;
   }
 
 h2 {
