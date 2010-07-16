@@ -48,4 +48,9 @@ p {
 }
 
   #links ul {
+    list-style-type:none;
   }
+  
+    #links ul li {
+      margin-bottom:0.5em;
+    }
