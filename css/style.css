@@ -30,12 +30,22 @@ h2 {
   font-variant:small-caps;
 }
 
-ul {
-  list-style-type:none;
-}
-
 p {
   line-height:20px;
 }
 
+#comment {
+  background-color:#f1f1f1;
+  padding:0.3em;
+  font-size:80%;
+}
 
+  #comment h3 {
+    font-size:110%;
+  }
+
+#links {
+}
+
+  #links ul {
+  }
