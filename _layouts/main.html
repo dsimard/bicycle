@@ -14,12 +14,12 @@
 <body>
   <div class="container showgrid2">
     <img src="images/logo.png" class="span-3" />
-    <h1 class="loud last"><a href="index.html">LeBicycle</a> <span class="small">&rArr; {{page.title}}</span></h1>
+    <h1 class="loud last"><a href="/">LeBicycle</a> <span class="small">&rArr; {{page.title}}</span></h1>
     <span class="loud span-8">Guide pour faire du vélo ton style de vie</span>
     <span class="prepend-10 small"><a href="apropos.html">à propos du site &rarr;</a></span>
     <hr />
-    <div id="content" class="span-17 border">
-      {{content}}
+    <span id="content" class="span-16 border">
+      {{content}}      
       <hr class="space" />
       <div id="comment">
         <!-- customize labels of htmlcommentbox.com -->
@@ -61,8 +61,8 @@
          <script type="text/javascript" language="javascript" id="hcb"> /*<!--*/ (function(){s=document.createElement("script");s.setAttribute("type","text/javascript");s.setAttribute("src", "http://www.htmlcommentbox.com/jread?page="+escape(""+window.location).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24k3diGzY/vo.L132xjto7r0"+"&opts=94&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
         <!-- done customizing labels of htmlcommentbox.com -->
       </div>
-    </div>
-    <div id="links">
+    </span>
+    <span id="links" class="span-7 last">
       Ce site est supporté par moi-même. Si il vous est utile, n'hésitez
       pas à me faire un don.
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -85,16 +85,20 @@
           <a href="http://www.velocia.ca/" target="_blank">Velocia</a>
           : forum francophone des passionnés du vélo
         </li>
+        <li>
+          <a href="http://www.geccoe.com/" target="_blank">Geccoe</a>
+          : recettes végétariennes pour une meilleur alimentation
+        </li>
       </ul>
-    </div>
+    </span>
     <hr class="prepend-top" />
-    <div id="footer" class="small quiet">
+    <span id="footer" class="small quiet span-24">
       <a href="mailto:dsimard@azanka.ca">dsimard@azanka.ca</a>
       | <a href="http://translate.google.com/translate?hl=en&sl=fr&tl=en&u=http://lebicycle.com/" target="_blank">english version</a>
       | <a href="http://github.com/dsimard/bicycle" target="_blank">code du site disponible sur GitHub</a>
       | <a rel="license" href="http://creativecommons.org/licenses/by-nd/3.0/"><img alt="Contrat Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/3.0/88x31.png" align="absmiddle" /></a>
-    </div>
-  </div>
+    </span>
+
   <script type="text/javascript">
 
     var _gaq = _gaq || [];

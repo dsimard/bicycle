@@ -50,10 +50,12 @@ p {
   }
 
 #links {
+  font-size:85%;
 }
 
   #links ul {
     list-style-type:none;
+    padding:0;
   }
   
     #links ul li {
